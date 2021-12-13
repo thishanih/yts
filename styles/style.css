@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
+
+#body {
+  background-color: #040303;
+}
+
+.navFont a {
+  font-size: 32px;
+  font-weight: 700;
+  color: #cd1818;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-topies a {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.nav-color {
+  background-color: #040303;
+}
+
+.max-higth {
+  max-height: 600px;
+  width: 100%;
+  background-size: cover;
+}
+.nev-text {
+  font-size: 18px;
+  color: #dddddd;
+  font-family: "Poppins", sans-serif;
+}
+.nev-Main {
+  font-size: 38px;
+  color: #cd1818;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.topies-heading {
+  font-size: 24px;
+  color: #dddddd;
+  font-family: "Poppins", sans-serif;
+}
+
+.see-All {
+  text-align: right;
+  color: #dddddd;
+}
+
+.movieTopies {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #dddddd;
+}
+
+.movie-detail-heading {
+  font-size: 38px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.movieDetail-year {
+  font-size: 20px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.movieDetail-category {
+  font-size: 20px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.movieDetail-summary {
+  font-size: 18px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.movie-description {
+  font-size: 28px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 575.98px) {
+  .navFont a {
+    font-size: 24px;
+  }
+  .nav-topies a {
+    font-size: 18px;
+  }
+
+  .nev-Main {
+    font-size: 20px;
+  }
+
+  .topies-heading {
+    font-size: 14px;
+  }
+
+  .see-All {
+    font-size: 10px;
+  }
+  .movie-detail-heading {
+    font-size: 28px;
+  }
+  .movieDetail-year {
+    font-size: 18px;
+  }
+}
