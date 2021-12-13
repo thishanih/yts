@@ -39,16 +39,17 @@ export default function Details({ Todo }) {
 
     return (
         <>
-            <title>Netflix | {Todo.data.movie.title_english}</title>
+            <Head>
+                <title>Netflix | {Todo.data.movie.title_english}</title>
 
-            <meta name="title" content={Todo.data.movie.title_english} />
-            <meta name="description" content="Watch HD Movies online and Stream latest tv-series, Over 200000 videos to stream in HD with English and Spanish subtitle. Join Netflix today to begin watching movies online" />
-            <meta name="keywords" content="free movies streaming, watch movies online, watch tv-series, full hd movies online, free tv-series online, watch hd movies free, watch series online, watch the walking dead online, watch prison break online, watch family guy online" />
-            <meta name="robots" content="index, follow" />
-            <meta name="language" content="English" />
-            <meta name="revisit-after" content="360 days" />
-            <meta name="author" content="facebook" />
-
+                <meta name="title" content={Todo.data.movie.title_english} />
+                <meta name="description" content="Watch HD Movies online and Stream latest tv-series, Over 200000 videos to stream in HD with English and Spanish subtitle. Join Netflix today to begin watching movies online" />
+                <meta name="keywords" content="free movies streaming, watch movies online, watch tv-series, full hd movies online, free tv-series online, watch hd movies free, watch series online, watch the walking dead online, watch prison break online, watch family guy online" />
+                <meta name="robots" content="index, follow" />
+                <meta name="language" content="English" />
+                <meta name="revisit-after" content="360 days" />
+                <meta name="author" content="facebook" />
+            </Head>
             <main className="bg-black">
                 <div className="container px-3 ">
 
